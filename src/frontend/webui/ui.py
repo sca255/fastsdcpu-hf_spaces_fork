@@ -92,4 +92,4 @@ def start_webui(
 ):
     webui = get_web_ui()
     webui.queue()
-    webui.launch(share=share)
+    webui.launch(share=share,GRADIO_SERVER_NAME="0.0.0.0",GRADIO_SERVER_PORT="8000)
